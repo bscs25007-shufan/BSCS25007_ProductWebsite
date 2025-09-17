@@ -55,7 +55,16 @@ function chatbot(event) {
     answer = "good";
   } else if (question === "what is your name") {
     answer = "sfn bot";
-  } else {
+  } 
+  else if(question=="what do you sell")
+  {
+    answer="laptops mobiles and their acessories";
+  }
+  else if(question=="can i get a laptop here")
+  {
+    answer="yes its available :) ";
+  }
+  else {
     answer = "I don't understand.";
   }
 
